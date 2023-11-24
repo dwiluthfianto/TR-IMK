@@ -1,0 +1,55 @@
+body {
+  font-family: Playfair Display;
+  background-color: #F1F1F1;
+}
+
+.Subjudul {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Judul {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Kutipan {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.btn-primary {
+  font-family: Playfair Display;
+  background-color: #1472FF;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 0%;
+}
+
+.kolom1 {
+  grid-column-start: 2;
+}
+
+.kolom2 {
+  grid-column-start: 1;
+}
+.text-reset{
+  text-decoration: none;
+}
+.foot{
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+h6{
+  font-size: 18px;
+}
