@@ -4,17 +4,33 @@ body {
 }
 
 .Subjudul {
-  font-size: 8vw;
+  font-size: 96px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
 .Judul {
-  font-size: 5vw ;
+  font-size: 64px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media (max-width: 800px) {
+  .Subjudul {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .Judul {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
 }
 
 .Kutipan {
@@ -36,14 +52,15 @@ body {
   border-radius: 0%;
 }
 
-.hi{
+.hi {
   font-size: 16px;
   font-family: "Poppins";
   font-weight: 400;
   display: grid;
   place-items: center;
 }
-.hii{
+
+.hii {
   font-family: Playfair Display;
   font-size: 36px;
   font-weight: 600;
@@ -51,43 +68,48 @@ body {
   display: flex;
   align-items: center;
 }
-.ahi{
-  width: 256px;
-  height:256px;
-}
-.nama{
+
+
+.nama {
   font-family: "Poppins";
   font-size: 16px;
   font-weight: 500;
 }
-.job{
+
+.job {
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 400;
   color: #5C5C5C;
 }
-.judul1{
+
+.judul1 {
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 500;
 }
-.sjudul1{
+
+.sjudul1 {
   font-family: Playfair Display;
   font-size: 36px;
   font-weight: 700;
 }
-.isi1{
+
+.isi1 {
   font-family: "Poppins";
   font-size: 16px;
   font-weight: 400;
 }
-.yutup{
+
+.yutup {
   width: 1440;
   height: 500;
 }
-.col-no-padding{
+
+.col-no-padding {
   padding: 0;
 }
+
 .text-reset {
   text-decoration: none;
 }
@@ -100,15 +122,18 @@ body {
 h6 {
   font-size: 18px;
 }
+
 @media (max-width: 576px) {
-  .ahi{
+  .ahi {
     width: 160px;
-    height:160px;
+    height: 160px;
   }
-  .hii{
+
+  .hii {
     font-size: 24px;
   }
-  .sjudul1{
+
+  .sjudul1 {
     font-size: 24px;
   }
 }
