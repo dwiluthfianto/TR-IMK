@@ -33,7 +33,6 @@ body {
 }
 
 .btn-primary {
-    font-family: Playfair Display;
     background-color: #1472FF;
     color: #fff;
     font-size: 16px;
@@ -49,4 +48,54 @@ body {
 
 .kolom2 {
     grid-column-start: 1;
+}
+
+.img-cookies {
+    width: 108px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.cookies-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cookies-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cookies-link {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.btn-cookies {
+    font-family: 'Poppins', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn-accept {
+    padding: 8px;
+    font-weight: 500;
+}
+
+.btn-customize {
+    padding: 8px;
+    font-weight: 500;
+    border-radius: 0%;
 }
