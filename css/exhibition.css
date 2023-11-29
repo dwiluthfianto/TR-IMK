@@ -99,3 +99,24 @@ h6 {
     margin-bottom: 8px;
     font-size: 16px;
 }
+
+@media (max-width: 800px) {
+    .past-title {
+        color: #5C5C5C;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .past-info {
+        color: #5C5C5C;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+    }
+}
