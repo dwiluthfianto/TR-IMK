@@ -1,0 +1,101 @@
+body {
+    font-family: Playfair Display;
+    background-color: #F1F1F1;
+}
+
+.btn-primary {
+    background-color: #1472FF;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 0%;
+}
+
+.exhibition-title {
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.past-title {
+    color: #5C5C5C;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.past-card {
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.past-card:hover {
+    transform: scale(1.02);
+}
+
+.past-info {
+    color: #5C5C5C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.status-exhibition {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.exhibition-name {
+    color: #5C5C5C;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.exhibition-info {
+    color: #5C5C5C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-read-more {
+    font-family: Poppins;
+}
+
+.line-horizontal {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.foot {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
